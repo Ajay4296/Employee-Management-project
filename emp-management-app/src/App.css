@@ -1,0 +1,50 @@
+.App {      
+  text-align: center;
+}      
+.navheader{      
+  margin-top: 10px;      
+  color :black !important;      
+  background-color: #b3beca!important      
+}    
+.PageHeading      
+{      
+  margin-top: 10px;      
+  margin-bottom: 10px;      
+  color :black !important;      
+} 
+.tab1 { 
+  tab-size: 2; 
+} 
+input[type=text] {
+width: 15%;
+padding: 8px 15px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+input[type=email] {
+width: 15%;
+padding: 8px 15px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+input[type=password] {
+width: 15%;
+padding: 8px 15px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}

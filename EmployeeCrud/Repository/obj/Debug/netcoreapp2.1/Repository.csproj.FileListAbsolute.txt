@@ -1,0 +1,15 @@
+C:\AjayCrud\EmployeeCrud\Repository\bin\Debug\netcoreapp2.1\Repository.deps.json
+C:\AjayCrud\EmployeeCrud\Repository\bin\Debug\netcoreapp2.1\Repository.runtimeconfig.json
+C:\AjayCrud\EmployeeCrud\Repository\bin\Debug\netcoreapp2.1\Repository.runtimeconfig.dev.json
+C:\AjayCrud\EmployeeCrud\Repository\bin\Debug\netcoreapp2.1\Repository.dll
+C:\AjayCrud\EmployeeCrud\Repository\bin\Debug\netcoreapp2.1\Repository.pdb
+C:\AjayCrud\EmployeeCrud\Repository\bin\Debug\netcoreapp2.1\EmployeeModel.dll
+C:\AjayCrud\EmployeeCrud\Repository\bin\Debug\netcoreapp2.1\EmployeeModel.pdb
+C:\AjayCrud\EmployeeCrud\Repository\obj\Debug\netcoreapp2.1\Repository.csprojAssemblyReference.cache
+C:\AjayCrud\EmployeeCrud\Repository\obj\Debug\netcoreapp2.1\Repository.csproj.CoreCompileInputs.cache
+C:\AjayCrud\EmployeeCrud\Repository\obj\Debug\netcoreapp2.1\Repository.AssemblyInfoInputs.cache
+C:\AjayCrud\EmployeeCrud\Repository\obj\Debug\netcoreapp2.1\Repository.AssemblyInfo.cs
+C:\AjayCrud\EmployeeCrud\Repository\obj\Debug\netcoreapp2.1\Repository.csproj.CopyComplete
+C:\AjayCrud\EmployeeCrud\Repository\obj\Debug\netcoreapp2.1\Repository.dll
+C:\AjayCrud\EmployeeCrud\Repository\obj\Debug\netcoreapp2.1\Repository.pdb
+C:\AjayCrud\EmployeeCrud\Repository\obj\Debug\netcoreapp2.1\Repository.genruntimeconfig.cache
