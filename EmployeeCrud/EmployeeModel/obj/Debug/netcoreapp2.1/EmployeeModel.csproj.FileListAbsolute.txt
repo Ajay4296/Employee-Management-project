@@ -3,6 +3,7 @@ C:\AjayCrud\EmployeeCrud\EmployeeModel\bin\Debug\netcoreapp2.1\EmployeeModel.run
 C:\AjayCrud\EmployeeCrud\EmployeeModel\bin\Debug\netcoreapp2.1\EmployeeModel.runtimeconfig.dev.json
 C:\AjayCrud\EmployeeCrud\EmployeeModel\bin\Debug\netcoreapp2.1\EmployeeModel.dll
 C:\AjayCrud\EmployeeCrud\EmployeeModel\bin\Debug\netcoreapp2.1\EmployeeModel.pdb
+C:\AjayCrud\EmployeeCrud\EmployeeModel\obj\Debug\netcoreapp2.1\EmployeeModel.csprojAssemblyReference.cache
 C:\AjayCrud\EmployeeCrud\EmployeeModel\obj\Debug\netcoreapp2.1\EmployeeModel.csproj.CoreCompileInputs.cache
 C:\AjayCrud\EmployeeCrud\EmployeeModel\obj\Debug\netcoreapp2.1\EmployeeModel.AssemblyInfoInputs.cache
 C:\AjayCrud\EmployeeCrud\EmployeeModel\obj\Debug\netcoreapp2.1\EmployeeModel.AssemblyInfo.cs

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using EmployeeModel;
+using EmployeeModel; 
 using Manager;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -60,6 +60,22 @@ namespace EmployeeCrud.Controllers
             {
                 return this.BadRequest();
             }
+        }
+        [Route("LoginEmployee")]
+        [HttpGet]
+        public IActionResult Login(int Id, string password)
+        {
+            Employee employee = this.employeeManager.GetEmployee(Id);
+            if (employee != null)
+            {
+                if (employee.Password == password)
+                {
+                    return this.Ok(employee);
+                }
+                else
+                    return this.NotFound("Please enter valid id and passworg!!");
+            }
+            return this.NotFound("Please enter valid id and passworg!!");
         }
 
     }

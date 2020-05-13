@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Login } from './pages/Login';
 import { Registration } from './pages/Registration';
-import { Navigation } from './component/Navigation';
+import { Navigation1 } from './component/Navigation1';
 import { EmployeeDetails } from './pages/EmployeeDetails';
 import {UpdateEmployee} from './pages/UpdateEmplyee';
 import Home from './pages/Home';
@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <div>
         <h1 className="App">Employee Management Portal</h1>
-        <Navigation/>
+        <Navigation1/>
         <Switch>
         <Route path='/' component={Home} exact />
           <Route path='/Registration' component={Registration} />

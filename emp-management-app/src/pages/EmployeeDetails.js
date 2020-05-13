@@ -4,14 +4,14 @@ import { deleteEmployee } from '../services/Controller'
 
 export class EmployeeDetails extends Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             Employee: [],
         };
     }
 
     componentDidMount() {
-        axios.get("https://localhost:44366/api/Controllers/GetAllEmployee")
+        axios.get("https://localhost:44366/api/Employee/GetAllEmployee")
             .then(results => {
                 this.setState({ Employee: results.data });
                 console.log(results.data);
@@ -32,11 +32,14 @@ export class EmployeeDetails extends Component {
 
     render() {
         return (
+            <div className="App">
             <>
                 <div className="App">
                     <h2 id="record">All Employee Records</h2>
                 </div>
-                <div className="container_second">
+                
+                <div className="container">
+                <div className="App">
                     <table className="table">
                         <tr>
                             <th>EmployeeId</th>
@@ -64,8 +67,11 @@ export class EmployeeDetails extends Component {
                             }
                         </tbody>
                     </table>
+                    </div>
                 </div>
+                
             </>
+            </div>
         )
     }
 }

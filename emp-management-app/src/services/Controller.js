@@ -15,7 +15,8 @@ export async function userLogin(id, password) {
 
 export async function addEmployee(data) {
     var headers = {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json-patch+json',
+        'accept': 'application/json'
     }
     try {
         return await axios.post("https://localhost:44366/api/Employee/AddEmployee", data, { headers: headers })
@@ -48,7 +49,7 @@ export async function updateEmployee(id, data) {
         'Content-Type': 'application/json'
     }
     try {
-        return axios.put('https://localhost:44366/api/Employee/UpdateEmployee=' + id, data, { headers: headers })
+        return axios.put('https://localhost:44366/api/Employee/UpdateEmployee' + id, data, { headers: headers })
             .then(response => {
                 return response
             })

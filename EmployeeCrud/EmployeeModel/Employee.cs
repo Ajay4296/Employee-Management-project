@@ -115,5 +115,6 @@
                 this.emailID = value;
             }
         }
+        public string Password { get; set; }
     }
 }

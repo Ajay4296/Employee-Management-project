@@ -1,50 +1,79 @@
-.App {      
+.App {
   text-align: center;
-}      
-.navheader{      
-  margin-top: 10px;      
-  color :black !important;      
-  background-color: #b3beca!important      
-}    
-.PageHeading      
-{      
-  margin-top: 10px;      
-  margin-bottom: 10px;      
-  color :black !important;      
-} 
-.tab1 { 
-  tab-size: 2; 
-} 
-input[type=text] {
-width: 15%;
-padding: 8px 15px;
-margin: 8px 0;
-box-sizing: border-box;
 }
-input[type=email] {
-width: 15%;
-padding: 8px 15px;
-margin: 8px 0;
-box-sizing: border-box;
+.navbar{
+  margin-top:10px;
+  color :black !important;
+  background-color: #b3beca!important;
 }
-input[type=password] {
-width: 15%;
-padding: 8px 15px;
-margin: 8px 0;
-box-sizing: border-box;
+.pageHeading
+{
+  margin-top: 10px;
+  margin-bottom: auto;
+  color :black !important
+}
+.tab1 {
+  tab-size: 2;
+}
+input[type=text]{
+  width: 15%;
+  padding:8px 0;
+  box-sizing:border-box;
+}
+input[type=email]{
+  width:15%;
+  padding:8px 15px;
+  margin:8px 0;
+  box-sizing: border-box;
+}
+input[type=password]{
+  width: 15%;
+  padding: 8px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 table {
-font-family: arial, sans-serif;
-border-collapse: collapse;
-width: 100%;
+  font-faimly: arial;
+  border-collapse: collapse;
+  widows: 100%;
+}
+td,th {
+  border:1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}tr:nth_child(even){
+  background-color:#dddddd;
+}
+  
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+
+/* Position the navbar container inside the image */
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
 }
 
-td, th {
-border: 1px solid #dddddd;
-text-align: left;
-padding: 8px;
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
 }
 
-tr:nth-child(even) {
-background-color: #dddddd;
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }

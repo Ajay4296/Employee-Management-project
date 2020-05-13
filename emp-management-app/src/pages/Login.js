@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+ import React, { Component } from 'react';
 import { Button } from 'reactstrap';
 import { userLogin } from '../services/Controller';
 
@@ -46,7 +46,7 @@ export class Login extends Component {
                         <input type="text" className="input-fname-text" placeholder="Enter Employee Id" onChange={this.handleIdChang} />
                     </div>
                     <div className="Password-div">
-                        <input type="password" className="input-lname-text" placeholder="Entee password" onChange={this.handlepasswordChang} />
+                         <input type="password" className="input-lname-text" placeholder="Entee password" onChange={this.handlepasswordChang} />
                     </div>
                     <div className="app-button">
                         <Button onClick={this.handleLogin} color="success" block>Login</Button>
