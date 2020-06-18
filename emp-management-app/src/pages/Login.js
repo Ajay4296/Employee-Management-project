@@ -1,14 +1,14 @@
- import React, { Component } from 'react';
+import React, { Component } from 'react';
 import { Button } from 'reactstrap';
 import { userLogin } from '../services/Controller';
 
-export class Login extends Component {
+  export class Login extends Component {
     constructor(props) {
         super(props);
         this.state = {
             EmployeeId: '',
-            PassWord: '',
-        }
+            PassWord: ''
+        };
     }
     handleIdChang = (event) => {
         const EmployeeId = event.target.value;

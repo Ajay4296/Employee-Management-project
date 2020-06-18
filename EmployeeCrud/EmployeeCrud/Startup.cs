@@ -36,7 +36,7 @@ namespace EmployeeCrud
                     builder =>
                     {
                         builder
-                        .AllowAnyOrigin()
+                         .AllowAnyOrigin()
                         .AllowAnyMethod()
                         .AllowAnyHeader()
                         .AllowCredentials();

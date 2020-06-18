@@ -7,12 +7,12 @@ export class Registration extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            FirstName: 'Ajay',
+            FirstName: '',
             LastName: '',
-            PhoneNumber: '9074637906',
-            Email: 'Afkkjh@',
+            PhoneNumber: '',
+            Email: '',
             PassWord: ''
-        }
+        };
     }
     handleFNameChange = (event) => {
         this.setState({ FirstName: event.target.value  });
@@ -25,7 +25,7 @@ export class Registration extends Component {
     }
 
     handlePhoneNumberChange = (event) => {
-        this.setState({ PhoneNumber: event.target.value});
+        this.setState({ PhoneNumber: event.target.value });
         console.log("PhoneNumber", this.state.PhoneNumber);
     }
 
@@ -36,7 +36,7 @@ export class Registration extends Component {
     } 
 
     handlepasswordChange = (event) => {
-        this.setState({ PassWord: event.target.value })
+        this.setState({ PassWord: event.target.value });
         console.log("PassWord", this.state.PassWord);
     }
 
@@ -51,7 +51,7 @@ export class Registration extends Component {
             PhoneNumber: this.state.PhoneNumber,
             Email: this.state.Email,
             PassWord: this.state.PassWord
-        }
+        };
         console.log("data", data);
         addEmployee(data).then((response) => {
             this.setState({
@@ -83,7 +83,7 @@ export class Registration extends Component {
                         <input type="text" className="input-PhoneNumber-text" placeholder="Enter your PhoneNumber" onChange={this.handlePhoneNumberChange} />
                     </div>
                     <div className="email-div">
-                        <input type="email" className="input-email-text" placeholder="Enter your email" onChange={this.handleEmailChange} />
+                        <input type="email" className="input-email-text" placeholder="Enter your email" onChange={this. handleEmailChange} />
                     </div>
                     <div className="password-div">
                         <input type="password" className="input-password-text" placeholder="Enter password" onChange={this.handlepasswordChange} />

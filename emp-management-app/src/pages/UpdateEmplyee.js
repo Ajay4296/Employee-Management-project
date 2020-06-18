@@ -49,7 +49,7 @@ export class UpdateEmployee extends Component {
             LastName: this.state.LastName,
             PhoneNumber: this.state.PhoneNumber,
             Email: this.state.Email,
-            PassWord: this.state.PassWord
+            PassWord: this.state.PassWord 
         }
         updateEmployee(id, data)
             .then(response => response.json())

@@ -27,7 +27,7 @@ export class EmployeeDetails extends Component {
 
     updataEmployee=(id)=>{
 
-  alert('success')
+   alert('success')
     }
 
     render() {
